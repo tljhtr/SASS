@@ -45,8 +45,8 @@ body {
 
 .container {
   max-width: 1024px;
-  padding: 0 15px;
-  margin: auto;
+  padding: 0 25px;
+  margin: 100px auto 100px auto;
 } 
 
 ul {
@@ -71,6 +71,7 @@ h1 {
   font-weight: 600;
   color: black;
   line-height: var(--size-50);
+  margin-bottom: 10px;
 }
 
 h2 {
@@ -123,7 +124,7 @@ img {
   cursor: pointer;
   background-color: var(--nav-button-hover);
   padding: .75rem 1rem;
-  border-radius: 1.25rem;
+  border-radius: 1.5rem;
   max-width: 130px;
   max-height: 100px;
 }
@@ -167,6 +168,12 @@ img {
   font-weight: 700;
   color: var(--nav-color);
   margin-bottom: var(--size-20);
+}
+
+.gray-mid-text-extra {
+  font-size: var(--size-14);
+  font-weight: 700;
+  color: var(--nav-color);
 }
 
 .dot-text {
