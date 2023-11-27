@@ -28,8 +28,10 @@
   }
 
   .big-background-wrapper {
-    background-position: bottom 192px right -246px;
-  }
+    background-size: cover;
+    background-position: top -204px right -253px;
+}
+
 
   .billboard {
     flex-direction: column;
@@ -46,56 +48,29 @@
   .buttonandtext {
     justify-content: center;
   }
-
+ 
   .logo-grid {
-    display: flex;
-    flex-direction: column;
-    max-width: 650px;
-    min-width: 320px;
-    padding-right: 0px;
-  }
-
-  .row-one {
-    margin-top: -20px;
+    max-width: 530px;
+    min-width: 330px;
+    gap: 5px;
   }
 
   .google {
-    margin-left: -32%;
-  }
-  
-  .blue-arrow {
-    margin-left: 28%;
-  }
-  
-  .red-dots {
-    margin-left: 42%;
-  }
-
-  .row-two {
-    margin-top: -10px;
-  }
-  
-  
-  .paypal {
-    margin-left: -30%;
-  }
-  
-  .dubs {
     margin-right: 0%;
-  }
-  
-  .row-three {
-    margin-top: 14px;
-  }
-  
-  .tri {
-    margin-left: 5%;
-    margin-top: -20px;
-  }
-  
-  .cal {
-    margin-right: -34%;
-  }
+    margin-left: 0%;
+}
+
+  .blue-arrow {
+    margin-left: 8%;
+}
+ 
+.red-dots {
+  margin-left: 14%
+}
+
+.dubs {
+  margin-right: 20%;
+}
 
   .bene-wrapper {
     display: grid;
@@ -185,7 +160,7 @@
   .blue-big {
     display: flex;
     flex-wrap: wrap;
-    max-width: 100%;
+    max-width: 75%;
   }
 
   .rule {
@@ -205,82 +180,58 @@
     margin-left: 40px;
   }
 
-  .footer-wht-phone-loc {
-    width: 50%;
+  .footer-wht-company-extra {
+    padding-right: 23px;
   }
+  
 
-  .footer-columns {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 50px;
-    margin: 0;
-  }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 476px) {
 
   .big-background-wrapper {
-    background-image: url("/saas-project-assets/header--image-moblie.svg");
-    background-position: top -144px right -45px;
-  }
+    background-size: cover;
+    background-position: top -148px right -233px;
+}
 
-  h1 {
-    font-size: var(--size-25);
-    line-height: 2.5rem;
-  }
+
 
   .logo-grid {
-    max-width: 320px;
-  }
- 
-
-
-  .row-one {
-    margin-top: -20px;
+    max-width: 330px;
+    gap: 10px;
   }
 
   .google {
-    margin-left: -4%;
+    margin-left: -9%;
+    margin-right: -5%;
   }
 
-  .blue-arrow {
-    margin-left: -60%;
-  }
-
-  .red-dots {
-    margin-left: -66%;
+.blue-arrow {
+    margin-right: 0%;
+    margin-left: 4%;
 }
 
-  .row-two {
-    margin-top: -10px;
-  }
-
-  .paypal {
-    margin-left: -5%;
+.red-dots {
+  margin-right: -5%;
+  margin-left: 11%;
 }
 
-  .dubs {
-    margin-right: 12%;
-}
-  
-  .row-three {
-    margin-top: 14px;
-  }
- 
-  .tri {
-    margin-left: 27%;
+.paypal {
+  margin-left: -8%;
+  margin-right: 3%;
 }
 
-  .cal {
-    margin-right: -3%;
+.dubs {
+  margin-right: 15%;
 }
 
-  
-  
-  
+.tri {
+  margin-left: 24%;
+}
 
-  
-  
-
+.cal {
+  margin-right: -4%;
+}
 
   .bene-wrapper {
     grid-template-columns: 1fr;
@@ -310,9 +261,7 @@
     padding: 80px 0;
   }
 
-  .director-pic {
-    max-width: 70%;
-  }
+ 
 
   .logo-row {
     display: grid;
@@ -332,6 +281,17 @@
     grid-template-columns: 1fr;
     text-align: center;
   }
+
+  .blue-big {
+    max-width: 100%;
+    justify-content: center;
+  }
+
+  .whit-text-italic {
+    max-width: 100%;
+  }
+
+
 
   .rule {
     max-width: 100%;
@@ -357,18 +317,17 @@
     align-items: center;
   }
 
-  .footer-wht-phone-loc {
-    width: 95%;
-  }
-
-    .footer-columns {
-      grid-template-columns: 1fr;
-      gap: 10px;
-    }
-
     .footer-nav {
       margin-bottom: 20px;
     }
+
+    .footer-columns {
+      flex-direction: column;
+    }
+
+    .footer-wht-company-extra {
+      padding-right: 0px;
+  }
 
     .footer-wht-company-extra>ul li:nth-child(3) {
       display: flex;
@@ -383,6 +342,10 @@
       align-items: center;
     }
 
+.social {
+  margin: auto;
+}
+
     .footer-icons {
       display: flex;
       flex-direction: column;
@@ -396,5 +359,69 @@
     }
 
 }
+
+@media screen and (max-width: 360px) {
+
+
+  h1 {
+    font-size: var(--size-25);
+    line-height: 2rem;
+    margin-top: 33px;
+  }
+
+  .header-text-left {
+    padding-bottom: 65px;
+}
+
+  .header-text-left p {
+    line-height: 1.1rem;    
+}
+
+.logo-grid {
+  gap: 0px;
+}
+
+  .google {
+    margin-left: -6%;
+    margin-right: -8%;
+  }
+
+.blue-arrow {
+  margin-right: -13%;
+  margin-left: 4%;
+}
+
+.red-dots {
+  margin-right: -4%;
+}
+
+
+
+.blue-big p {
+  margin-bottom: 0;
+}
+
+h6 {
+  margin-top: 30px;
+}
+
+.wht-text-big {
+  margin-top: 0;
+}
+
+.whit-text-italic {
+  max-width: 100%;
+}
+
+.form {
+  margin-top: 0;
+}
+
+.form .dot-text {
+  margin-top: 0;
+  font-size: var(--size-14);
+}
+}
+
 
 
