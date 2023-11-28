@@ -1,35 +1,40 @@
 :root {
---nav-color:#7f8289;
---nav-color-hover:#2377fe;
---nav-button-hover:#1c68e3;
---nav-learn-hover:#1254be;
---footer-color-text:#667787;
---footer-icons:#edf2ff;
---form-boarder:#ededed;
---size-8: 0.5rem;
---size-10: 0.625rem;
---size-12: 0.75rem;
---size-14: 0.875rem;
---size-15: 0.9375rem;
---size-16: 1rem;
---size-18: 1.125rem;
---size-20: 1.25rem;
---size-25: 1.65rem;
---size-30: 1.875rem;
---size-40: 2.5rem;
---size-50: 3.125rem;
---size-60: 3.75rem;
---size-70: 4.375rem;
---size-80: 5rem;
---size-100: 6.25rem;
---size-150: 9.75rem;
---size-200: 12.5rem;
+  --nav-color: #7f8289;
+  --nav-color-hover: #2377fe;
+  --nav-button-hover: #1c68e3;
+  --nav-learn-hover: #1254be;
+  --footer-color-text: #667787;
+  --footer-icons: #edf2ff;
+  --form-boarder: #ededed;
+  --size-8: 0.5rem;
+  --size-10: 0.625rem;
+  --size-12: 0.75rem;
+  --size-14: 0.875rem;
+  --size-15: 0.9375rem;
+  --size-16: 1rem;
+  --size-18: 1.125rem;
+  --size-20: 1.25rem;
+  --size-25: 1.65rem;
+  --size-30: 1.875rem;
+  --size-40: 2.5rem;
+  --size-50: 3.125rem;
+  --size-60: 3.75rem;
+  --size-70: 4.375rem;
+  --size-80: 5rem;
+  --size-100: 6.25rem;
+  --size-150: 9.75rem;
+  --size-200: 12.5rem;
 }
 
 *,
-::after, ::before {box-sizing: border-box;}
+::after,
+::before {
+  box-sizing: border-box;
+}
 
-html {scroll-behavior: smooth;}
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -45,9 +50,9 @@ body {
 
 .container {
   max-width: 1024px;
-  padding: 0 25px;
-  margin: 100px auto 100px auto;
-} 
+  padding: 0 1.65rem;
+  margin: 6.25rem auto 6.25rem auto;
+}
 
 ul {
   padding: 0;
@@ -55,15 +60,16 @@ ul {
   list-style: none;
 }
 
-a { text-decoration: none;
+a {
+  text-decoration: none;
   cursor: pointer;
 }
 
-p { margin-top: 0;
-color: var(--nav-color);
-font-weight: 500;
-font-size: var(--size-16)
-
+p {
+  margin-top: 0;
+  color: var(--nav-color);
+  font-weight: 500;
+  font-size: var(--size-16)
 }
 
 h1 {
@@ -105,7 +111,7 @@ h6 {
   font-weight: 700;
   color: white;
   margin-bottom: var(--size-10);
-  margin-top: 130px;
+  margin-top: 8.125rem;
 }
 
 img {
@@ -115,8 +121,6 @@ img {
   border-style: none;
 }
 
-
-
 .blue-button {
   font-weight: 300;
   color: white;
@@ -125,8 +129,8 @@ img {
   background-color: var(--nav-button-hover);
   padding: .75rem 1rem;
   border-radius: 1.5rem;
-  max-width: 130px;
-  max-height: 100px;
+  max-width: 8.125rem;
+  max-height: 6.25rem;
 }
 
 .blue-button:hover {
@@ -157,10 +161,10 @@ img {
 }
 
 .gray-small-text {
-    font-size: var(--size-16);
-    font-weight: 400;
-    color: var(--nav-color);
-    margin-bottom: var(--size-20);
+  font-size: var(--size-16);
+  font-weight: 400;
+  color: var(--nav-color);
+  margin-bottom: var(--size-20);
 }
 
 .gray-mid-text {
@@ -188,5 +192,3 @@ img {
   background-color: #20335b;
   margin-top: var(--size-150);
 }
-
-
