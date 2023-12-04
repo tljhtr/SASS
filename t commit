@@ -1,0 +1,41 @@
+[33mcommit c8278d0252897f2daa0d81d24657f6151469a75b[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Tim Johnson <tljhtr@gmail.com>
+Date:   Sun Dec 3 20:03:34 2023 -0600
+
+    first commit
+
+[33mcommit 829ce0d06992d0d4b2f26ca4e01376b97ff33d69[m
+Author: Tim Johnson <tljhtr@gmail.com>
+Date:   Mon Nov 27 18:57:50 2023 -0600
+
+    images cleaned up all resposive design
+
+[33mcommit fdc63d66096a928f69b435118ef87021ae44dbb8[m
+Author: Tim Johnson <tljhtr@gmail.com>
+Date:   Mon Nov 27 17:03:57 2023 -0600
+
+    fine tune of functionality of moving fomr sizes
+
+[33mcommit f5cd5b4650bbc93c030734e9afe9ac5f528dc458[m
+Author: Tim Johnson <tljhtr@gmail.com>
+Date:   Mon Nov 27 17:02:34 2023 -0600
+
+    updated for 360 screens
+
+[33mcommit a2a4b0dd44554e029fa110d0c56921a3c0a898ea[m
+Author: Tim Johnson <tljhtr@gmail.com>
+Date:   Mon Nov 27 16:49:37 2023 -0600
+
+    updated to look good at 768 screens
+
+[33mcommit 883784a0501026271ff3f66a18c233084c81c2d2[m
+Author: Tim Johnson <tljhtr@gmail.com>
+Date:   Mon Nov 27 16:38:42 2023 -0600
+
+    improved for 1024 screen
+
+[33mcommit c48dbc88619c140ac72537daec6d2da9b7e14e08[m
+Author: Tim Johnson <tljhtr@gmail.com>
+Date:   Mon Nov 27 14:32:59 2023 -0600
+
+    first commit. basic html to start
